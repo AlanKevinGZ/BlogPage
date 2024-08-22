@@ -1,0 +1,30 @@
+
+img{
+    width: 100%;
+}
+
+.cards_col{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.cards_col .card_prop{
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.info_card{
+    margin: 0 5px;
+}
+
+.cards_col .card_prop .info_card h2{
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+
+
+
+
